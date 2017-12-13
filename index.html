@@ -14,15 +14,17 @@
 <body>
   <div class="navbar-fixed">
 			<nav class="grey darken-4 z-depth-4" role="navigation">
-				<div class="nav-wrapper" style="padding-left:30px">
-					<img style="padding-top: 15px; height: 50px; width: auto;" src="rsc/img/ear-white.png">
-					<a id="logo-container" href="index.html" class="brand-logo left" style="padding-left:10px">Sound of Swearing</a>
+				<div class="nav-wrapper" style="margin-left:30px">
+					<img style="padding-top: 15px; height: 50px; width: auto;" src="rsc/img/ear-white.png" class="hide-on-small-only">
+					<a id="logo-container" href="index.html" class="brand-logo left hide-on-med-and-down" style="margin-left:10px">Sound of Swearing</a>
+					<a id="logo-container" href="index.html" class="brand-logo left hide-on-large-only" style="margin-left:35px">Sound of Swearing</a>
+					<img style="padding-top: 12px; height: 45px; width: auto;" src="rsc/img/ear-white.png" class="hide-on-med-and-up">
 				</div>
 			</nav>
-		  <ul style="width:250px; margin-top:65px;" class="side-nav fixed z-depth-3">
-        <li class="active" style="background-color:rgba(0,0,0,0.2)"><a href="index.html">Home</a></li>
+			<ul style="width:250px; margin-top:65px;" class="side-nav fixed z-depth-3 hide-on-small-only">
+				<li class="active" style="background-color:rgba(0,0,0,0.2)"><a href="index.html">Home</a></li>
 				<li><a href="about.html">About the Project</a></li>
-        <li><a href="methods.html">Methods of Analysis</a></li>
+				<li><a href="methods.html">Methods of Analysis</a></li>
 				<li style="padding-left:15px">
 					<ul class="collapsible collapsible-accordion">
 						<li>
@@ -42,24 +44,40 @@
 							</div>
 						</li>
 					</ul>
-      	</li>
+				</li>
 				<li><a href="future.html">Going Forward</a></li>
-      </ul> 
+			</ul>
+			<ul id="slide-out" style="width:250px; margin-top:65px;" class="side-nav z-depth-3 hide-on-med-and-up">
+				<li class="active" style="background-color:rgba(0,0,0,0.2)"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About the Project</a></li>
+				<li><a href="methods.html">Methods of Analysis</a></li>
+				<li style="padding-left:15px" class="hide-on-small-only">
+					<ul class="collapsible collapsible-accordion">
+						<li>
+							<a class="collapsible-header">Findings<i class="material-icons right">arrow_drop_down</i></a>
+							<div class="collapsible-body">
+								<ul>
+									<li><a href="findings.html">Overall</a></li>
+									<li><a href="findings.html#latin">Latin</a></li>
+									<li><a href="findings.html#slavic">Slavic</a></li>
+									<li><a href="findings.html#germanic">Germanic</a></li>
+									<li><a href="findings.html#ngermanic">North Germanic</a></li>
+									<li><a href="findings.html#uralic">Uralic</a></li>
+									<li><a href="findings.html#austric">Austric</a></li>
+									<li><a href="findings.html#indic">Indic</a></li>									
+									<li><a href="findings.html#sinotibetan">Sino-Tibetan</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li><a href="future.html">Going Forward</a></li>
+			</ul>
   </div>
 	<div style="margin-left:250px">
-		<div class="section no-pad-bot" id="index-banner">
-			<div class="container">
-				<br><br>
-				<h1 class="header center orange-text">Starter Template</h1>
-				<div class="row center">
-					<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-				</div>
-				<div class="row center">
-					<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light ">Get Started</a>
-				</div>
-				<br><br>
-
-			</div>
+		
+		<div class="section no-pad-top" id="index-banner">
+			<img style="width:100%; height: auto;" src="rsc/img/lang-tree.jpg">
 		</div>
 
 
@@ -67,34 +85,10 @@
 			
 <!--============   Home Section   -============-->
 			<div class="section">
-				<div class="row">
-					<div class="col s12 m4">
-						<div class="icon-block">
-							<h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-							<h5 class="center">Speeds up development</h5>
-
-							<p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-						</div>
-					</div>
-
-					<div class="col s12 m4">
-						<div class="icon-block">
-							<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-							<h5 class="center">User Experience Focused</h5>
-
-							<p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-						</div>
-					</div>
-
-					<div class="col s12 m4">
-						<div class="icon-block">
-							<h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-							<h5 class="center">Easy to work with</h5>
-
-							<p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-						</div>
-					</div>
-				</div>
+				
+				<p class="flow-text">How does vulgar speech differ from regular speech between languages globally?</p><br><br>
+				<p>A group of three undergraduate students from the University of Texas at Dallas, under the guidance of Dr. Ben Wright tried to understand the effects of emotion and context on languages.</p><br><br>
+				<p>Explore the tabs to learn <a href="methods.html">how we analyzed speech</a>, view our comparative <a href="findings.html">graphs of sound distributions</a>, and <a href="findings.html#conclusions">understand</a> our findings. </p>
 
 			</div><!--./section-->
 			<br><br>

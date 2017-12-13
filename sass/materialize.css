@@ -5428,7 +5428,7 @@ input[type=range]:focus::-ms-fill-upper {
     right: 0;
     left: auto; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
   .side-nav.fixed {
     transform: translateX(-105%); }
     .side-nav.fixed.right-aligned {
